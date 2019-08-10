@@ -23,7 +23,7 @@ li a {
 }
 
 nav ul li a {
-    color: white;
+    color: #333;
 }
 
 footer ul li a {
@@ -31,8 +31,7 @@ footer ul li a {
 }
 
 .active {
-    background-color: #4CAF50;
-    color: white;
+    border-bottom: 5px solid #4CAF50;
 }
 
 .center-container {
@@ -85,4 +84,43 @@ footer {
 
 .search-controls button {
     padding: 10px;
+}
+
+.border-right {
+    border-right: 1px solid #333;
+}
+
+.links-inline a {
+    display: inline-block;
+    padding: 14px 0px;
+}
+
+.location {
+    margin-left: 16px;
+}
+
+.number-of-results {
+    color: darkgray;
+    padding: 5px;
+    margin: 5px;
+}
+
+.result {
+    margin: 10px;
+    width: 50%;
+}
+
+.result .title {
+    color: blue;
+    margin-bottom: 5px;
+}
+
+.result .url a {
+    color: green;
+    text-decoration: none;
+}
+
+.ad {
+    color: green;
+    border: 1px solid green;
 }
