@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  
+}
+
+nav ul {
+    background-color: #333;
+}
+
+footer ul {
+    background-color: lightgrey;
+}
+
+li {
+    float: left;
+}
+
+li.right {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: white;
+}
+
+footer ul li a {
+    color: #333;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.squares-icon {
+    background-repeat: no-repeat;
+    background-image: url('./img/nine-squares-icon.svg');
+    background-size: 20px 20px;
+    background-position: 50% 40%;
+    padding: 14px 16px;
+}
+
+.avatar-icon {
+    background-repeat: no-repeat;
+    background-image: url('./img/avatar.png');
+    background-size: 20px 20px;
+    background-position: 50% 40%;
+    padding: 14px 16px;
+    overflow: hidden;
+}
+
+.avatar-icon a {
+    border-radius: 10px;
+}
+
+.center-container {
+    padding: 30px;
+    height: 100%;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.border-bottom {
+    border-bottom: 1px solid darkgrey;
+}
+
+.logo {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.logo-blue {
+    color: #4885ed;
+}
+
+.logo-red {
+    color:  #db3236;
+}
+
+.logo-yellow {
+    color:  #f4c20d;
+}
+
+.logo-green {
+    color: #3cba54;
+}
+
+.search-input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 90%;
+    border-radius: 25px;
+    font-size: 1.5em;
+}
+
+.search-controls {
+    margin-top: 20px;
+}
+
+.search-controls button {
+    padding: 10px;
+}
