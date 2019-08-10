@@ -1,0 +1,21 @@
+.logo {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.logo-blue {
+    color: #4885ed;
+}
+
+.logo-red {
+    color:  #db3236;
+}
+
+.logo-yellow {
+    color:  #f4c20d;
+}
+
+.logo-green {
+    color: #3cba54;
+}

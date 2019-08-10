@@ -1,21 +1,6 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html, body {
-    height: 100%;
-}
-
-body {
-    font-family: 'Lexend Exa', sans-serif;
-}
-
 ul {
   list-style-type: none;
   overflow: hidden;
-  
 }
 
 nav ul {
@@ -54,27 +39,6 @@ footer ul li a {
     color: white;
 }
 
-.squares-icon {
-    background-repeat: no-repeat;
-    background-image: url('./img/nine-squares-icon.svg');
-    background-size: 20px 20px;
-    background-position: 50% 40%;
-    padding: 14px 16px;
-}
-
-.avatar-icon {
-    background-repeat: no-repeat;
-    background-image: url('./img/avatar.png');
-    background-size: 20px 20px;
-    background-position: 50% 40%;
-    padding: 14px 16px;
-    overflow: hidden;
-}
-
-.avatar-icon a {
-    border-radius: 10px;
-}
-
 .center-container {
     padding: 30px;
     height: 70%;
@@ -100,28 +64,6 @@ footer {
 
 .border-bottom {
     border-bottom: 1px solid darkgrey;
-}
-
-.logo {
-    font-size: 4em;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.logo-blue {
-    color: #4885ed;
-}
-
-.logo-red {
-    color:  #db3236;
-}
-
-.logo-yellow {
-    color:  #f4c20d;
-}
-
-.logo-green {
-    color: #3cba54;
 }
 
 .search-input {

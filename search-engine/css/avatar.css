@@ -1,0 +1,12 @@
+.avatar-icon {
+    background-repeat: no-repeat;
+    background-image: url('../img/avatar.png');
+    background-size: 20px 20px;
+    background-position: 50% 40%;
+    padding: 14px 16px;
+    overflow: hidden;
+}
+
+.avatar-icon a {
+    border-radius: 10px;
+}
