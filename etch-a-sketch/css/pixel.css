@@ -1,0 +1,18 @@
+#canvas {
+    height: 960px;
+    width: 960px;
+    margin: auto;
+    font-size: 0;
+}
+
+.pixel {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 0 !important;
+}
+
+.active {
+    background-color: black;
+}
